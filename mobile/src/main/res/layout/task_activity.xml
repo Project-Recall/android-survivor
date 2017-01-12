@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/task_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.recallapplication.recallsurvivor.TaskActivity">
+
+    <TextView
+        android:text="Please select the emojis that are most closely related to your reminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/instructionsTextView" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/instructionsTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/submitButton"
+        android:layout_height="match_parent"
+        android:id="@+id/optionsGridLayout"
+        android:columnCount="4"
+        android:rowCount="4"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
+            android:id="@+id/emojiImageButton11"
+            android:layout_width="95dp"
+            android:layout_height="95dp" />
+        <ImageButton
+            app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
+            android:id="@+id/emojiImageButton12"
+            android:layout_width="95dp"
+            android:layout_height="95dp" />
+        <ImageButton
+            app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
+            android:id="@+id/emojiImageButton13"
+            android:layout_width="95dp"
+            android:layout_height="95dp" />
+        <ImageButton
+            app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
+            android:id="@+id/emojiImageButton14"
+            android:layout_width="95dp"
+            android:layout_height="95dp" />
+        <ImageButton
+            app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
+            android:id="@+id/emojiImageButton21"
+            android:layout_height="95dp"
+            android:layout_width="95dp" />
+        <ImageButton
+            app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
+            android:id="@+id/emojiImageButton22"
+            android:layout_height="95dp"
+            android:layout_width="95dp" />
+        <ImageButton
+            app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
+            android:id="@+id/emojiImageButton23"
+            android:layout_height="95dp"
+            android:layout_width="95dp" />
+        <ImageButton
+            app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
+            android:id="@+id/emojiImageButton24"
+            android:layout_height="95dp"
+            android:layout_width="95dp" />
+        <ImageButton
+            app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
+            android:id="@+id/emojiImageButton31"
+            android:layout_height="95dp"
+            android:layout_width="95dp" />
+        <ImageButton
+            app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
+            android:id="@+id/emojiButton32"
+            android:layout_height="95dp"
+            android:layout_width="95dp"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
+            android:id="@+id/emojiImageButton33" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
+            android:id="@+id/emojiImageButton34" />
+        <ImageButton
+            app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
+            android:id="@+id/emojiImageButton41"
+            android:layout_width="110dp"
+            android:layout_height="110dp" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
+            android:id="@+id/emojiImageButton42" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
+            android:id="@+id/emojiImageButton43" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
+            android:id="@+id/emojiImageButton44" />
+
+
+    </GridLayout>
+
+    <Button
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/submitButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
