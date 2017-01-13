@@ -81,38 +81,37 @@
             app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
             android:id="@+id/emojiButton32"
             android:layout_height="95dp"
-            android:layout_width="95dp"/>
+            android:layout_width="95dp" />
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
-            android:id="@+id/emojiImageButton33" />
+            android:id="@+id/emojiImageButton33"
+            android:layout_height="95dp"
+            android:layout_width="95dp" />
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
-            android:id="@+id/emojiImageButton34" />
+            android:id="@+id/emojiImageButton34"
+            android:layout_height="95dp"
+            android:layout_width="95dp" />
         <ImageButton
             app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
             android:id="@+id/emojiImageButton41"
-            android:layout_width="110dp"
-            android:layout_height="110dp" />
+            android:layout_height="95dp"
+            android:layout_width="95dp" />
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
-            android:id="@+id/emojiImageButton42" />
+            android:id="@+id/emojiImageButton42"
+            android:layout_height="95dp"
+            android:layout_width="95dp" />
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
-            android:id="@+id/emojiImageButton43" />
+            android:id="@+id/emojiImageButton43"
+            android:layout_height="95dp"
+            android:layout_width="95dp" />
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
-            android:id="@+id/emojiImageButton44" />
-
+            android:id="@+id/emojiImageButton44"
+            android:layout_height="95dp"
+            android:layout_width="95dp" />
 
     </GridLayout>
 

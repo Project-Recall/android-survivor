@@ -44,7 +44,31 @@
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:id="@+id/selectedEmojiGridLayout">
+            android:id="@+id/selectedEmojiGridLayout"
+            android:layout_marginTop="15dp">
+
+            <ImageButton
+                app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
+                android:id="@+id/emojiImageButton11"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+            <ImageButton
+                app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
+                android:id="@+id/emojiImageButton12"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+            <ImageButton
+                app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
+                android:id="@+id/emojiImageButton13"
+                android:layout_width="95dp"
+                android:layout_height="95dp" />
+            <ImageButton
+                app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
+                android:id="@+id/emojiImageButton14"
+                android:layout_width="95dp"
+                android:layout_height="95dp" />
 
         </GridLayout>
 
