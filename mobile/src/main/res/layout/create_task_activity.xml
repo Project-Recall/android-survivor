@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.recallapplication.recallsurvivor.CreateTaskActivity">
+    tools:context="com.recallapplication.recallsurvivor.activity.CreateTaskActivity">
 
     <LinearLayout
         android:orientation="vertical"
@@ -48,24 +48,18 @@
             android:layout_marginTop="15dp">
 
             <ImageButton
-                app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
                 android:id="@+id/emojiImageButton11"
                 android:layout_width="95dp"
-                android:layout_height="95dp"
-                srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+                android:layout_height="95dp" />
             <ImageButton
-                app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
                 android:id="@+id/emojiImageButton12"
                 android:layout_width="95dp"
-                android:layout_height="95dp"
-                srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+                android:layout_height="95dp" />
             <ImageButton
-                app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
                 android:id="@+id/emojiImageButton13"
                 android:layout_width="95dp"
                 android:layout_height="95dp" />
             <ImageButton
-                app:srcCompat="@drawable/common_google_signin_btn_icon_dark_disabled"
                 android:id="@+id/emojiImageButton14"
                 android:layout_width="95dp"
                 android:layout_height="95dp" />

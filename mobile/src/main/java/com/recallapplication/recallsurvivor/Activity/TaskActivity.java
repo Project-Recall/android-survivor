@@ -1,7 +1,9 @@
-package com.recallapplication.recallsurvivor;
+package com.recallapplication.recallsurvivor.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.recallapplication.recallsurvivor.R;
 
 public class TaskActivity extends AppCompatActivity {
 

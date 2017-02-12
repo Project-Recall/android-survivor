@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.recallapplication.recallsurvivor.TaskActivity">
+    tools:context="com.recallapplication.recallsurvivor.activity.TaskActivity">
 
     <TextView
         android:text="Please select the emojis that are most closely related to your reminder"
