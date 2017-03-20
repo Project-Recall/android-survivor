@@ -8,7 +8,10 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_height="500dp">
+        android:layout_height="500dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp">
 
         <TextView
             android:text="Sign Up for Recall"
@@ -58,6 +61,43 @@
             android:ems="10"
             android:id="@+id/confirmPasswordEditText"
             android:hint="Confirm Pasword" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Your Memory Rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/memoryLabelTextView"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/memoryLabelTextView"
+                android:layout_toRightOf="@+id/memoryLabelTextView"
+                android:layout_toEndOf="@+id/memoryLabelTextView"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:id="@+id/memoryRatingSpinner" />
+
+            <TextView
+                android:text="(1-short 10-long)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/memoryRatingSpinner"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/memoryScaleTextView"
+                android:layout_alignRight="@+id/memoryLabelTextView"
+                android:textAlignment="center" />
+        </RelativeLayout>
 
     </LinearLayout>
 
